@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Demo">
+<meta name="author" content="Dr.&nbsp;Greg Chism">
 
-<title>Project Title - Project title</title>
+<title>Equity in Federal Grant Allocation: Analyzing Disparities Among Eligible Groups</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -36,10 +36,12 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -61,6 +63,8 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 </head>
 
@@ -72,7 +76,7 @@ ul.task-list li input[type="checkbox"] {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">Project Title</span>
+    <span class="navbar-title">Equity in Federal Grant Allocation: Analyzing Disparities Among Eligible Groups</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -106,6 +110,7 @@ ul.task-list li input[type="checkbox"] {
   </li>  
 </ul>
             <div class="quarto-navbar-tools">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
@@ -121,6 +126,20 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#abstract" id="toc-abstract" class="nav-link active" data-scroll-target="#abstract">Abstract</a></li>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link" data-scroll-target="#introduction">Introduction</a></li>
+  <li><a href="#question-1-is-there-equity-in-federal-government-access" id="toc-question-1-is-there-equity-in-federal-government-access" class="nav-link" data-scroll-target="#question-1-is-there-equity-in-federal-government-access">Question 1: Is there equity in Federal Government access?</a>
+  <ul class="collapse">
+  <li><a href="#introduction-1" id="toc-introduction-1" class="nav-link" data-scroll-target="#introduction-1">Introduction:</a></li>
+  <li><a href="#approach" id="toc-approach" class="nav-link" data-scroll-target="#approach">Approach</a></li>
+  <li><a href="#analysis" id="toc-analysis" class="nav-link" data-scroll-target="#analysis">Analysis</a></li>
+  <li><a href="#discussion" id="toc-discussion" class="nav-link" data-scroll-target="#discussion">Discussion:</a></li>
+  </ul></li>
+  <li><a href="#question-2-how-much-money-is-available-to-native-american-governing-bodies-across-funding-category" id="toc-question-2-how-much-money-is-available-to-native-american-governing-bodies-across-funding-category" class="nav-link" data-scroll-target="#question-2-how-much-money-is-available-to-native-american-governing-bodies-across-funding-category">Question 2: How much money is available to Native American Governing bodies across funding category?</a>
+  <ul class="collapse">
+  <li><a href="#introduction-2" id="toc-introduction-2" class="nav-link" data-scroll-target="#introduction-2">Introduction:</a></li>
+  <li><a href="#approach-1" id="toc-approach-1" class="nav-link" data-scroll-target="#approach-1">Approach</a></li>
+  <li><a href="#discussion-1" id="toc-discussion-1" class="nav-link" data-scroll-target="#discussion-1">Discussion</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -129,7 +148,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Project title</h1>
+<h1 class="title">Equity in Federal Grant Allocation: Analyzing Disparities Among Eligible Groups</h1>
 <p class="subtitle lead">INFO 526 - Project 1</p>
 </div>
 
@@ -140,7 +159,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Author</div>
     <div class="quarto-title-meta-contents">
-             <p>Demo </p>
+             <p>Dr.&nbsp;Greg Chism </p>
           </div>
   </div>
     
@@ -153,9 +172,64 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="abstract" class="level2">
 <h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
-<p>Add project abstract here.</p>
+<p>In a diverse and evolving society, equitable distribution of resources, particularly in the context of federal grant funding, is of paramount importance. This project, titled “Equity in Federal Grant Allocation: Analyzing Disparities Among Eligible Groups,” aims to investigate the allocation of federal grant funds across various eligible groups to shed light on potential disparities and advocate for more equitable resource distribution.</p>
+</section>
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
+<p>The study employs a comprehensive dataset of federal grant allocations over multiple years, encompassing a wide range of eligible groups, such as state and local governments, tribal organizations, and non-profit entities. Using advanced data analysis techniques, we explore patterns and trends in funding distribution to discern potential inequalities.</p>
+<p>Our research methodology encompasses statistical analysis, data visualization, and demographic profiling. By dissecting these findings, we aim to uncover systematic differences in grant funding allocation based on eligibility criteria, such as the type of organization, geographical location, and program category.</p>
+<p>The results of this study hold significant implications for policy-makers, grant administrators, and advocacy groups. By identifying and quantifying disparities, we seek to inform evidence-based policy recommendations aimed at achieving more equitable distribution of federal grant resources. Moreover, this research contributes to the broader dialogue on social justice and inclusive public policy, emphasizing the need for equitable opportunities and resources for all eligible groups.</p>
+<p>Ultimately, our project strives to promote fairness and equal access to federal grant funding, contributing to the overarching goal of building a more equitable and inclusive society.</p>
+</section>
+<section id="question-1-is-there-equity-in-federal-government-access" class="level2">
+<h2 class="anchored" data-anchor-id="question-1-is-there-equity-in-federal-government-access">Question 1: Is there equity in Federal Government access?</h2>
+<section id="introduction-1" class="level3">
+<h3 class="anchored" data-anchor-id="introduction-1">Introduction:</h3>
+<p>The inequity in federal government grant opportunities is not a new concept, now am I addressing conclusively how to correct it. In this first question, I ask, in the Federal Grants available to the R4DS community, to what extent is their equity between Indigenous American governmental bodies and State and Local Governments. The answer is significant towards whether the diverse R4DS community will have equal opportunity towards grant funding within and outside of the organization.</p>
+<p>The first question utilizes variables in a dataset that represents federal grants that the R4DS community has access to now that it is fiscally sponsored project of Open Collective Foundation (https://opencollective.foundation), a 501(c)(3) public charity.</p>
+</section>
+<section id="approach" class="level3">
+<h3 class="anchored" data-anchor-id="approach">Approach</h3>
+<p>To address this question, I created a composite figure that serves as a comprehensive visual representation of the grant landscape, meticulously comparing grant opportunities between Native American government bodies and other entities. By amalgamating scatter plots, waffle charts, and informative legends, this figure succinctly conveys key insights into the distribution of grant awards and funding levels across different time periods and categories. The striking contrast in funding patterns, highlighted through color-coded segments and log-transformed grant counts, underscores the significance of disparities in grant opportunities between Native American government bodies and their counterparts.</p>
+</section>
+<section id="analysis" class="level3">
+<h3 class="anchored" data-anchor-id="analysis">Analysis</h3>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="index_files/figure-html/unnamed-chunk-3-1.png" class="img-fluid" width="960"></p>
+</div>
+</div>
+</section>
+<section id="discussion" class="level3">
+<h3 class="anchored" data-anchor-id="discussion">Discussion:</h3>
+<p>The plot shows that there is serious inequity between Native American government bodies and State and Local governments, but only in the <code>Food, Health, &amp; Social Services</code> and <code>Community Development &amp; Arts</code> funding categories. This was actually surprising, since I initially created seemingly arbitrary category groupings, but they seemed to be appropriate. The most damning inequity is that Native American government bodies has access to $371,670,350 less than State and Local governments. Proportionally, the inequity in <code>Community Development &amp; Arts</code> is much worse (~ 1/99), which is especially sad as these funding grants would aid seriously impoverished Native American tribal reservations.</p>
+<p>By presenting a holistic view of grant data, this figure enables policymakers, grant administrators, and researchers to gain a deeper understanding of the challenges faced by Native American government bodies in accessing Federal grant funding, particularly in specific categories. This visualization serves as a powerful tool for informed decision-making, offering valuable insights into the allocation of resources and the potential areas where targeted support may be needed to address these disparities and promote equitable access to grant opportunities.</p>
+</section>
+</section>
+<section id="question-2-how-much-money-is-available-to-native-american-governing-bodies-across-funding-category" class="level2">
+<h2 class="anchored" data-anchor-id="question-2-how-much-money-is-available-to-native-american-governing-bodies-across-funding-category">Question 2: How much money is available to Native American Governing bodies across funding category?</h2>
+<section id="introduction-2" class="level3">
+<h3 class="anchored" data-anchor-id="introduction-2">Introduction:</h3>
+<p>From Question 1, we know that there is inequity in available Federal Grant funding. I was then interested in determining what funding categories funding available for Native American Governing bodies. Historically, Health, Agriculture, and Social Services has had a lions share of federal grant funding. It is important to determine whether this holds true for Native American Governing bodies, especially since we know that there is inequity in our <code>Food, Health, &amp; Social Services</code> category.</p>
+<p>In light of the established inequities in available Federal Grant funding, our exploration extends to assess the allocation of funding across specific categories for Native American Governing bodies. Historically, the domains of Health, Agriculture, and Social Services have been recipients of substantial Federal Grant funding, asserting their prominence in resource distribution. To address the critical question of whether these trends persist within the context of Native American Governing bodies, our analysis zooms in on the funding landscape within these categories. This scrutiny becomes particularly pertinent, given the previously identified inequities within the <code>Food, Health, &amp; Social Services</code> category. To unravel these dynamics, we employ a unique polar plot visualization, shedding light on the nuances of funding distribution, grant quantities, and potential areas requiring focused attention within this specific context.</p>
+</section>
+<section id="approach-1" class="level3">
+<h3 class="anchored" data-anchor-id="approach-1">Approach</h3>
+<p>To quantify the available funding for Native American Governing bodies across diverse funding categories, I employed a systematic approach. Initially, I meticulously filtered the data to isolate records pertinent to these entities, ensuring the analysis exclusively revolved around Native American Governing bodies. Subsequently, I applied logarithmic transformation (<span class="math inline">\(\log_{10}\)</span>) to the estimated total program funding values to standardize the funding metrics and facilitate effective visualization.</p>
+<p>With the data thus prepared, I proceeded to group and summarize it. Specifically, I grouped the data based on “category groups,” each representing a distinct funding category. Within these groups, I computed the cumulative funding amount, providing insight into the financial allocation for each category. Simultaneously, I tallied the number of grants within each category. This comprehensive data preparation and summarization paved the way for an innovative polar plot visualization, revealing the funding distribution and grant quantity disparities across categories. In essence, this approach amalgamated data transformation, grouping, summarization, and creative visualization to offer a succinct and illuminating analysis of funding accessibility for Native American Governing bodies in 2023.</p>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="index_files/figure-html/unnamed-chunk-4-1.png" class="img-fluid" width="864"></p>
+</div>
+</div>
+</section>
+<section id="discussion-1" class="level3">
+<h3 class="anchored" data-anchor-id="discussion-1">Discussion</h3>
+<p>This plot provides a unique and insightful perspective on the distribution of available funding for Native American and Indian Entities in the year 2023 across different grant categories. It accomplishes this by visualizing the total funding amounts (represented by the height of the bars) allocated to various “category groups.” Each bar is further divided into segments, representing the number of grants (indicated by the fill color intensity). The dashed lines extending from the center of the plot to the outer edge create a radial effect, emphasizing the scale of funding variation within each category group. The choice of a polar coordinate system adds an artistic touch to the visualization, making it visually appealing and easy to interpret.</p>
+<p>The significance of this plot lies in its ability to provide a clear and comprehensive understanding of funding distribution patterns for Native American and Indian Entities in 2023. It allows viewers to quickly identify which category groups receive the most and least funding while also highlighting the variation in the number of grants within each category. The polar arrangement and the use of color intensity make it easy to compare funding levels across different categories, revealing potential areas of focus for policymakers, grant administrators, and organizations working with Native American and Indian Entities. Overall, this plot offers a visually engaging and informative representation of funding disparities and can help guide decision-making processes to promote equitable allocation of resources among different grant categories.</p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -179,6 +253,121 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
+  const disableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'prefetch';
+    }
+  }
+  const enableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'stylesheet';
+    }
+  }
+  const manageTransitions = (selector, allowTransitions) => {
+    const els = window.document.querySelectorAll(selector);
+    for (let i=0; i < els.length; i++) {
+      const el = els[i];
+      if (allowTransitions) {
+        el.classList.remove('notransition');
+      } else {
+        el.classList.add('notransition');
+      }
+    }
+  }
+  const toggleColorMode = (alternate) => {
+    // Switch the stylesheets
+    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+    manageTransitions('#quarto-margin-sidebar .nav-link', false);
+    if (alternate) {
+      enableStylesheet(alternateStylesheets);
+      for (const sheetNode of alternateStylesheets) {
+        if (sheetNode.id === "quarto-bootstrap") {
+          toggleBodyColorMode(sheetNode);
+        }
+      }
+    } else {
+      disableStylesheet(alternateStylesheets);
+      toggleBodyColorPrimary();
+    }
+    manageTransitions('#quarto-margin-sidebar .nav-link', true);
+    // Switch the toggles
+    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+    for (let i=0; i < toggles.length; i++) {
+      const toggle = toggles[i];
+      if (toggle) {
+        if (alternate) {
+          toggle.classList.add("alternate");     
+        } else {
+          toggle.classList.remove("alternate");
+        }
+      }
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455)
+    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+      manageTransitions("body", false);
+      window.scrollTo(0, 1);
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        manageTransitions("body", true);
+      }, 40);  
+    }
+  }
+  const isFileUrl = () => { 
+    return window.location.protocol === 'file:';
+  }
+  const hasAlternateSentinel = () => {  
+    let styleSentinel = getColorSchemeSentinel();
+    if (styleSentinel !== null) {
+      return styleSentinel === "alternate";
+    } else {
+      return false;
+    }
+  }
+  const setStyleSentinel = (alternate) => {
+    const value = alternate ? "alternate" : "default";
+    if (!isFileUrl()) {
+      window.localStorage.setItem("quarto-color-scheme", value);
+    } else {
+      localAlternateSentinel = value;
+    }
+  }
+  const getColorSchemeSentinel = () => {
+    if (!isFileUrl()) {
+      const storageValue = window.localStorage.getItem("quarto-color-scheme");
+      return storageValue != null ? storageValue : localAlternateSentinel;
+    } else {
+      return localAlternateSentinel;
+    }
+  }
+  let localAlternateSentinel = 'default';
+  // Dark / light mode switch
+  window.quartoToggleColorScheme = () => {
+    // Read the current dark / light value 
+    let toAlternate = !hasAlternateSentinel();
+    toggleColorMode(toAlternate);
+    setStyleSentinel(toAlternate);
+  };
+  // Ensure there is a toggle, if there isn't float one in the top right
+  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+    const a = window.document.createElement('a');
+    a.classList.add('top-right');
+    a.classList.add('quarto-color-scheme-toggle');
+    a.href = "";
+    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+    const i = window.document.createElement("i");
+    i.classList.add('bi');
+    a.appendChild(i);
+    window.document.body.appendChild(a);
+  }
+  // Switch to dark mode if need be
+  if (hasAlternateSentinel()) {
+    toggleColorMode(true);
+  } else {
+    toggleColorMode(false);
+  }
   const icon = "";
   const anchorJS = new window.AnchorJS();
   anchorJS.options = {

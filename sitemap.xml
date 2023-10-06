@@ -2,18 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://INFO526-DataViz.github.io/project-01-demo/proposal.html</loc>
-    <lastmod>2023-09-20T22:46:15.025Z</lastmod>
-  </url>
-  <url>
-    <loc>https://INFO526-DataViz.github.io/project-01-demo/index.html</loc>
-    <lastmod>2023-09-20T22:46:14.317Z</lastmod>
-  </url>
-  <url>
-    <loc>https://INFO526-DataViz.github.io/project-01-demo/presentation.html</loc>
-    <lastmod>2023-09-20T22:46:14.061Z</lastmod>
+    <lastmod>2023-10-06T06:57:02.177Z</lastmod>
   </url>
   <url>
     <loc>https://INFO526-DataViz.github.io/project-01-demo/about.html</loc>
-    <lastmod>2023-09-20T22:46:14.565Z</lastmod>
+    <lastmod>2023-10-06T06:56:56.666Z</lastmod>
+  </url>
+  <url>
+    <loc>https://INFO526-DataViz.github.io/project-01-demo/presentation.html</loc>
+    <lastmod>2023-10-06T06:56:55.924Z</lastmod>
+  </url>
+  <url>
+    <loc>https://INFO526-DataViz.github.io/project-01-demo/index.html</loc>
+    <lastmod>2023-10-06T06:56:56.405Z</lastmod>
+  </url>
+  <url>
+    <loc>https://INFO526-DataViz.github.io/project-01-demo/riseOfAIPlot.html</loc>
+    <lastmod>2023-10-06T06:56:57.840Z</lastmod>
   </url>
 </urlset>
